@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/css_reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>THEE El Gonzo's Pig Emporium &#187 Order Your Pig</title>
+</head>
+<body>
+    <div class="banner"></div>
+    <navbar class="navbar">
+        <ul><a href="index.html">Home</a></ul>
+        <ul><a href="aboutus.html">About Us</a></ul>
+        <ul><a href="order.html">Order Your Pig</a></ul>
+        <ul><a href="team.html">Meet Our Team</a></ul>
+        <ul><a href="contact.html">Contact</a></ul>
+    </navbar>
+    <div class="orderform">
+        <div class="formbanner">
+            <h1>Order Your Pig</h1>
+        </div>
+        <form>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname">
+            <label for="email">E-Mail Address</label>
+            <input type="email" id="email" name="email">
+            <p>I'm Interested In A</p>
+            <input type="checkbox" id="pig1" name="pig1">
+            <label for="pig1">Wilbur</label>
+            <input type="checkbox" id="pig2" name="pig2">
+            <label for="pig2">Porky</label>
+            <input type="checkbox" id="pig3" name="pig3">
+            <label for="pig3">Reuben</label>
+            <button type="submit">Submit</button>
+            
+        </form>
+    </div> 
+    <div class="total">
+        <p>Your Total is:</p>
+        <div class="totalbox"><p id="subtotal"></p></div>
+    </div>
+    <div class="payment">
+        <form>
+            <label for="ccnum">Your Credit Card Number:</label>
+            <input type="number" id="ccnum" name="ccnum">
+            <label for="expdate">Expiration Date:</label>
+            <input type="date" id="expdate" name="expdate">
+            <label for="zip">Billing Zip Code:</label>
+            <input type="number" id="zip" name="zip">
+            <label for="pin">CCV:</label>
+            <input type="password" id="pin" name="pin">
+            <button id="paynow" type="submit">Pay Now</button>
+        </form>
+        
+    </div>
+    <div class="disclaimer">
+        <p>All orders, once placed, are final and cannot be returned. Please
+        ensure your information is correct before submitting payment.</p>
+    </div>
+    <footer>
+        <p>Copyright DSS Studios 2022</p>
+    </footer>
+</body>
+</html>
